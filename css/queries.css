@@ -1,0 +1,30 @@
+/*below 512px (smaller desktops)
+*****************/
+
+@media (max-width: 32em) {
+  .main-card {
+    width: 40rem;
+  }
+  .music-img {
+    width: 40rem;
+    background-position: center;
+  }
+}
+/*below 416px (smaller desktops)
+*****************/
+@media (max-width: 26rem) {
+  .main-card {
+    width: 34rem;
+  }
+  .music-img {
+    width: 34rem;
+    background-position: center;
+  }
+  .payment-box {
+    width: 30rem;
+  }
+  .btn-payment,
+  .btn-payment:link {
+    width: 30rem;
+  }
+}
